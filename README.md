@@ -15,7 +15,7 @@ No prerequisites are needed to run this application, you only need a web browser
 
 Built With
 
-HTML
+HTML /n
 SCSS
 JavaScript
 Rick and Morty API
