@@ -11,25 +11,19 @@ Getting Started
 To run the application locally, you will need to clone this repository to your local machine. Once you have the repository cloned, you can open the index.html file in your browser to run the application.
 
 Prerequisites
-
 No prerequisites are needed to run this application, you only need a web browser.
 
 Built With
 
 HTML
-
 SCSS
-
 JavaScript
-
 Rick and Morty API
 
 
 Author
-
 Nemanja Nikolic
 
 Acknowledgments
-
 Rick and Morty API (https://rickandmortyapi.com/documentation) for providing the data used in this application.
 Please fill in the necessary details such as your name and license, if you don't have the license yet, you can use the default license from GitHub.
