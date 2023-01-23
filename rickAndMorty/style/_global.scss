@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-color: #1b1b1b;
+  color: #f4f4f4;
+}
+
+.m {
+  &-auto {
+    margin: 0 auto;
+  }
+
+  &-y {
+    &-5 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    &-10 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &-x {
+    &-5 {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+    &-10 {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+}
+
+.p {
+  &-all {
+    &-5 {
+      padding: 5px;
+    }
+    &-10 {
+      padding: 10px;
+    }
+  }
+
+  &-y {
+    &-5 {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    &-10 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+  &-x {
+    &-5 {
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+    &-10 {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+}
+
+.disp {
+  &-blck {
+    display: block;
+  }
+  &-ib {
+    display: inline-block;
+  }
+  &-in {
+    display: inline;
+  }
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-col {
+    flex-direction: column;
+  }
+}
+
+.txt {
+  &-c {
+    text-align: center;
+  }
+}
+
+@mixin flex-c {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin margin-0-a {
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.dead {
+  color: red;
+  font-weight: bolder;
+}

@@ -1,0 +1,62 @@
+body {
+  background-image: url(https://images3.alphacoders.com/812/812062.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: right;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 20px;
+  width: 300px;
+
+  background-color: #16acc9;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  opacity: 0.85;
+
+  font-weight: bold;
+
+  &:hover {
+    scale: 1.1;
+    opacity: 1;
+    transition: 0.7s;
+  }
+
+  img {
+    width: 100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+  }
+
+  section {
+    text-align: center;
+    padding: 20px;
+
+    h2 {
+      color: white;
+      letter-spacing: 1px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 22px;
+      margin: 10px;
+    }
+    span {
+      margin: 10px 15px;
+    }
+  }
+}
